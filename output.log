@@ -77,4 +77,3 @@ mysql         secret/mysql-secrets                           Opaque             
 todoapp       secret/app-secret                              Opaque                          5      12m
 todoapp       secret/sh.helm.release.v1.todoapp-release.v1   helm.sh/release.v1              1      12m
 todoapp       secret/sh.helm.release.v1.todoapp-release.v2   helm.sh/release.v1              1      4m59s
-(.venv) PS C:\Users\Asus\PycharmProjects\devops_todolist_kubernetes_task_12_helm_charts>
