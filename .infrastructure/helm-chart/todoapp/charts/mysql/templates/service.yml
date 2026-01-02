@@ -6,7 +6,7 @@ metadata:
   namespace: {{ .Values.common.namespace }}
 spec:
   selector:
-    app: {{ .Chart.mysql.statefulSet.name }}
+    app: {{ .Values.mysql.statefulSet.name }}
   ports:
   - name: {{ .Chart.Name }}
     port: 3306
